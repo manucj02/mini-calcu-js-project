@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<label for="add"> Addition </label>
+<input type="number" id="add1" required> + <input type="number" id="add2" required> = <input type="text" id="displayAdd" >
+<button type="button" onclick=" Calculateadd()"> Calculate </button>
+<br>
+<br>
+<label for="sub"> Substration </label>
+<input type="number" id="sub1" required> - <input tupe="number" id="sub2" required> = <input type="text" id="subresult" required>
+<button type="button" onclick="Calculatesub()"> Calculate </button>
+<br>
+<br>
+<label for="mul"> Multiplication </label>
+<input type="number" id="mul1" required> * <input tupe="number" id="mul2" required> = <input type="text" id="mulresult" required>
+<button type="button" onclick="Calculatemul()"> Calculate </button>
+<br>
+<br>
+<label for="div"> Division </label>
+<input type="number" id="div1" required> / <input tupe="number" id="div2" required> = <input type="text" id="divresult" required>
+<button type="button" onclick="Calculatediv()"> Calculate </button>
+<br>
+<br>
+</form>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+function Calculateadd() {
+let num1 = document.getElementById("add1").value;
+let num2 = document.getElementById("add2").value;
+let result = Number(num1) + Number(num2);
+
+
+document.getElementById("displayAdd").value = result;
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
